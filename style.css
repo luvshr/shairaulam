@@ -50,7 +50,7 @@ body .about {
   background-color: #E3D9D1;
 }
 
-body .menu {
+body .travels {
   background-color: #67553E;
   border: #fff;
 }
@@ -138,7 +138,7 @@ section {
   color: var(--main-color);
 }
 
-#menu-btn {
+#travels-btn {
   display: none;
 }
 
@@ -294,193 +294,50 @@ section {
   line-height: 1.8;
 }
 
-.menu .box-container {
+.travels .box-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   gap: 1.5rem;
 }
 
-.menu .box-container .box {
+.travels .box-container .box {
   padding: 2rem;
   text-align: center;
   border: var(--border);
 }
 
-.menu .box-container .box img {
+.travels .box-container .box img {
   height: 30rem;
 }
 
-.menu .box-container .box h3 {
+.travels .box-container .box h3 {
   color: #fff;
   font-size: 2rem;
   padding: 1rem 0;
 }
 
-.menu .box-container .box .price {
+.travels .box-container .box .price {
   color: #fff;
   font-size: 2.5rem;
   padding: 0.5rem 0;
 }
 
-.menu .box-container .box .price span {
+.travels .box-container .box .price span {
   font-size: 1.5rem;
   text-decoration: line-through;
   font-weight: lighter;
 }
 
-.menu .box-container .box:hover {
+.travels .box-container .box:hover {
   background: #ffffff;
 }
 
-.menu .box-container .box:hover > * {
+.travels .box-container .box:hover > * {
   color: var(--black);
 }
 
-.menu .box-container .box:hover span {
+.travels .box-container .box:hover span {
   color: var(--black);
-}
-
-.products .box-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-  gap: 1.5rem;
-}
-
-.products .box-container .box {
-  text-align: center;
-  border: var(--border);
-  padding: 2rem;
-}
-
-.products .box-container .box .icons a {
-  height: 5rem;
-  width: 5rem;
-  line-height: 5rem;
-  font-size: 2rem;
-  border: var(--border);
-  color: #fff;
-  margin: 0.3rem;
-}
-
-.products .box-container .box .icons a:hover {
-  background: var(--main-color);
-}
-
-.products .box-container .box .image img {
-  padding: 2.5rem 0;
-}
-
-.products .box-container .box .image img {
-  width: 130px;
-  height: 25rem;
-}
-
-.products .box-container .box .content h3 {
-  color: #fff;
-  font-size: 2.5rem;
-}
-
-.products .box-container .box .content .stars i {
-  font-size: 1.7rem;
-  color: var(--main-color);
-}
-
-.products .box-container .box .content .price {
-  color: #fff;
-  font-size: 2.5rem;
-}
-
-.products .box-container .box .content .price span {
-  font-size: 1.5rem;
-  font-weight: lighter;
-  text-decoration: line-through;
-}
-
-.programmers .box-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-  gap: 1.5rem;
-}
-
-.programmers .box-container .box {
-  border: var(--border);
-  text-align: center;
-  padding: 3rem 2rem;
-}
-
-.programmers .box-container .box p {
-  font-size: 1.5rem;
-  line-height: 1.8;
-  color: #ccc;
-  padding: 2rem 0;
-}
-
-.programmers .box-container .box .user {
-  width: 7rem;
-  height: 7rem;
-  border-radius: 50%;
-  object-fit: cover;
-}
-
-.programmers .box-container .box h3 {
-  padding: 1rem 0;
-  font-size: 2rem;
-  color: #fff;
-}
-
-.programmers .box-container .box .stars i {
-  padding: 1rem 0;
-  font-size: 1.5rem;
-  color: #fff;
-}
-
-.login .row {
-  display: flex;
-  background: var(--black);
-  flex-wrap: wrap;
-  gap: 1rem;
-}
-
-.login .row .map {
-  flex: 1 1 45rem;
-  width: 100%;
-  object-fit: cover;
-}
-
-.login .row form {
-  flex: 1 1 45rem;
-  padding: 5rem 2rem;
-  text-align: center;
-}
-
-.login .row form h3 {
-  text-transform: uppercase;
-  font-size: 3.5rem;
-  color: #fff;
-}
-
-.login .row form .inputBox {
-  display: flex;
-  align-items: center;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-  background: var(--black);
-  border: var(--border);
-}
-
-.login .row form .inputBox span {
-  color: #fff;
-  font-size: 2rem;
-  padding-left: 2rem;
-}
-
-.login .row form .inputBox input {
-  width: 100%;
-  padding: 1rem;
-  font-size: 1.7rem;
-  color: #fff;
-  text-transform: none;
-  background: none;
 }
 
 .blogs .box-container {
@@ -606,7 +463,7 @@ section {
 }
 
 @media screen and (max-width: 768px) {
-  #menu-btn {
+  #travels-btn {
     display: inline-block;
   }
 
